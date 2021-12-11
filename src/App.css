@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+
+.App{
+  background-color: #1F2833;
+}
+
+.App h1{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 42px;
+  color: #C5C6c7;
+}
+
+.grids{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.recipe{
+  margin: 30px;
+  background-color: white;
+  padding: 50px;
+}
+
+ul{
+  list-style: none;
+  margin: 10px 0px;
+}
+
+form{
+  text-align: center;
+  padding-top: 20px;
+}
+
+input{
+  margin: 10px 0px;
+  padding: 12px 15px;
+  width: 30%;
+  font-size: 15px;
+  border: none;
+}
+
+form button{
+  background-color: #66FCF1;
+  padding: 12px 35px;
+  border: none;
+  font-family: inherit;
+  font-size: 15px;
+}
+
+form button:hover{
+  cursor: pointer;
+  background-color: #45A29E;
+}
+
+img{
+  height: 250px;
+  margin-top:50px ;
+  border-radius: 100px;
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
